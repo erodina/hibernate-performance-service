@@ -1,0 +1,10 @@
+<jaxb:bindings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+               xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+    <jaxb:globalBindings>
+        <jaxb:serializable uid="1" />
+        <jaxb:javaType name="java.lang.Long" xmlType="xsd:dateTime"
+                       parseMethod="ru.ibs.gasu.soap.adapter.XmlGregorianCalendarAdapter.unmarshal"
+                       printMethod="ru.ibs.gasu.soap.adapter.XmlGregorianCalendarAdapter.marshal" />
+    </jaxb:globalBindings>
+</jaxb:bindings>
